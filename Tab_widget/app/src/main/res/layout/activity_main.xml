@@ -38,13 +38,10 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <TextView
+                    <ListView
+                        android:id="@+id/listview1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="#8BC34A"
-                        android:gravity="center"
-                        android:padding="8dp"
-                        android:text="TAB CONTENT 1" />
+                        android:layout_height="match_parent"/>
 
                 </LinearLayout>
 
